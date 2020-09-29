@@ -4,8 +4,8 @@ import random
 xmlfilepath=os.path.join(os.getcwd(),'Annotations')
 saveBasePath=os.path.join(os.getcwd(),'ImageSets','Main')
  
-trainval_percent=1
-train_percent=1
+trainval_percent=0.8
+train_percent=0.8
 
 temp_xml = os.listdir(xmlfilepath)
 total_xml = []
